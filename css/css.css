@@ -1,0 +1,151 @@
+body 
+{
+	width: 100%;
+	background-color: #e6e6e6;
+	margin: auto;
+}
+
+.navContainer 
+{
+	height: 30px;
+	width: 100%;
+	margin: auto;
+	padding-top: 30px;
+}
+
+nav 
+{
+	width: 100%;
+	list-style: none;
+	max-width: 400px;
+	background-color: #333;
+	padding: 0;
+	margin: 1em auto;
+	overflow: visible;
+	height: 30px;
+	border-style: ridge;
+}
+
+nav ul:before 
+{
+	display: table;
+    content: " ";
+}
+
+nav ul 
+{
+	overflow: visible;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li 
+{
+	text-align: center;
+	font-style: italic;
+	overflow: visible;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: none;
+	width: 1%;
+	max-width: 80px;
+	display: table-cell;
+	position: relative;
+}
+
+a 
+{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	color: #d9d9d9;
+	overflow: visible;
+	line-height: 30px;
+	display: block;
+	position: relative;
+}
+
+a:hover 
+{
+	color: #e6e6e6;
+}
+
+a img 
+{
+	width: 75px;
+    margin: 0 40px 0 -16px;
+    padding: 0;
+    vertical-align: baseline;
+    position: absolute;
+    bottom: -30px;
+    right: 5%;
+    left: 5%;
+}
+
+div.content
+{
+	display: table;
+	width: 70%;
+	height: 470px;
+	background-color: #ffffff;
+	margin: 2em auto;
+	border-style: ridge;
+	text-align: center;
+}
+
+div.box
+{
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+#click
+{
+	margin: 24.6em auto;
+}
+
+p 
+{
+	text-align:center; 
+	vertical-align: middle;
+	display: table-cell;   
+}
+
+footer
+{
+	width: 100%;
+	list-style: none;
+	max-width: 400px;
+	background-color: #333;
+	padding: 0;
+	margin: -1.3em auto;
+	overflow: visible;
+	height: 30px;
+	border-style: ridge;
+}
+
+#album 
+{
+	margin:1.6em auto;
+	width:500px;
+	height:396px;
+	border-style: ridge;
+}
+
+#time
+{
+	text-align: center;
+	font-style: italic;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	color: #d9d9d9;
+	overflow: visible;
+	line-height: 30px;
+	display: block;
+	position: relative;
+}

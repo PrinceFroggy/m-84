@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+			<title>download</title>
+				<link rel="stylesheet" type="text/css" href="css/css.css" />
+	</head>
+	
+	<script>
+		function startTime() 
+		{
+			var today = new Date();
+			var h = today.getHours();
+			var m = today.getMinutes();
+			var s = today.getSeconds();
+			
+			m = checkTime(m);
+			s = checkTime(s);
+    
+			document.getElementById('time').innerHTML =
+			h + ":" + m + ":" + s;
+			
+			var t = setTimeout(startTime, 500);
+		}
+		
+		function checkTime(i) 
+		{
+			if (i < 10) {i = "0" + i};
+			return i;
+		}
+	</script>
+	
+	<body>
+		<div class="navContainer">
+			<nav>
+				<ul>
+					<li><a href="art.html"> art </a></li>
+					<li><a href="download.html"> download </a></li>
+					<li><a href="home.html"> <img src="image/symbol.png"></a></li>
+					<li><a href="portfolio.html"> portfolio </a></li>
+					<li><a href="product.html"> product </a></li>
+				</ul>
+			</nav>
+		</div>
+		
+		<div class="content">
+		
+		</div>
+		
+		<footer>
+			<body onload="startTime()">
+			<div id="time"></div>
+		</footer>
+	</body>
+</html>
